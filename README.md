@@ -2,6 +2,15 @@
 
 This is an example of an ETL process written in Python. It was written for academic purposes to demonstrate how to separate code concerns and provide a plausible starting point for extracting data from an API and importing it into a database.
 
+## Setup
+
+Create a Python Virtual Environment using `conda` and then install the required modules using `pip install`:
+
+```
+conda create -n my-etl python=3.7
+pip install -r requirements.txt
+```
+
 ## Installation
 
 1. Create a MySQL database
